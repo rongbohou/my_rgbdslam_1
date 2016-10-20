@@ -1,0 +1,1 @@
+g++    -std=c++11 -march=native -O3 -pthread  -Wno-deprecated -g     CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  -L/home/bobo/code/my_rgbdslam_1/lib -rdynamic 

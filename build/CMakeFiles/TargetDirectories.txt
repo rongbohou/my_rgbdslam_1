@@ -1,0 +1,8 @@
+/home/bobo/code/my_rgbdslam_1/build/src/CMakeFiles/detectFeatures.dir
+/home/bobo/code/my_rgbdslam_1/build/src/CMakeFiles/generate_pointcloud.dir
+/home/bobo/code/my_rgbdslam_1/build/src/CMakeFiles/joinPointCloud.dir
+/home/bobo/code/my_rgbdslam_1/build/src/CMakeFiles/main.dir
+/home/bobo/code/my_rgbdslam_1/build/src/CMakeFiles/slam.dir
+/home/bobo/code/my_rgbdslam_1/build/src/CMakeFiles/slamEnd.dir
+/home/bobo/code/my_rgbdslam_1/build/src/CMakeFiles/slambase.dir
+/home/bobo/code/my_rgbdslam_1/build/src/CMakeFiles/visualOdometry.dir
