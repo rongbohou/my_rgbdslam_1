@@ -32,8 +32,8 @@ int main( int argc, char** argv )
     // 构建提取器，默认两者都为sift
     // 构建sift, surf之前要初始化nonfree模块
     cv::initModule_nonfree();
-    _detector = cv::FeatureDetector::create( "SURF" );
-    _descriptor = cv::DescriptorExtractor::create( "SURF" );
+    _detector = cv::FeatureDetector::create( "SIFT" );
+    _descriptor = cv::DescriptorExtractor::create( "SIFT" );
 
     vector< cv::KeyPoint > kp1, kp2; //关键点
     _detector->detect( rgb1, kp1 );  //提取关键点
@@ -78,7 +78,7 @@ int main( int argc, char** argv )
 
     for ( size_t i=0; i<matches.size(); i++ )
     {
-        if (matches[i].distance < 3*minDis)
+        if (matches[i].distance < 4*minDis)
             goodMatches.push_back( matches[i] );
     }
 
